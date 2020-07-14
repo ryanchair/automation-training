@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Halodoc" parallel="tests" thread-count="1">
+
+<test name="Cari Obat">
+<classes>
+	<class name="org.ryanchair.testCase.CariObatTestCase"/>
+</classes>
+</test>
+
+<test name="Cari Dokter">
+<classes>
+	<class name="org.ryanchair.testCase.CariDokterTestCase"/>
+</classes>
+</test>
+</suite>
